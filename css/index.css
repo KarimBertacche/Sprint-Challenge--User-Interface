@@ -389,4 +389,18 @@ label {
 }
 
 /* MEDIA QUERIES */
-@media 
+@media (max-width: 768px){
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .top-content,
+    .bottom-content {   
+        flex-direction: column;
+    }
+
+    .text-container {
+        width: 100%;
+    }
+}
+
