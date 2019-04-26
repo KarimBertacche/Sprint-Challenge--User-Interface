@@ -89,6 +89,13 @@ p {
     align-items: flex-end;
     text-decoration: none;
     color: inherit;
+    transition: all 1s;
+}
+
+.nav-link:hover {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 
 .hero-img {
@@ -404,3 +411,21 @@ label {
     }
 }
 
+/* ANIMATION */
+@keyframes bounce {
+    0%{
+        transform: translateY(-5px) scale(1.2);
+    }
+
+    50%{
+        transform: translateY(0) scale(.8);
+    }
+
+    75%{
+        transform: translateY(-3px) scale(1.1);
+    }
+
+    100%{
+        transform: translateY(0) scale(1);
+    }
+}
