@@ -33,14 +33,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+- Semantic HTML is used to give meaningful tags to elements, this helps us with readability when reviewing the code and also makes our code more consistent, standardasized and professional so other developers can also view it and understand what each elemenent purpose is.
+Also whit semantic elements the document ranks higher on result searches performed on browsers(SEO) as the browser is looking for specific information/tags when communicating the page so it can display it on the search engine, this elements/tags are usually meta data, title, h1, etc. .
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+- The "display: block;" property take the all the available width of the document, therefore occupying the all line, whereas "display: inline;" takes only as much space as the content that it contains within it, also with inline elements like <span> tags width and height properties have no effect on them whereas with block level elements you can control both the width and height, the happy middle ground is "display: inline-block" which merges the two tags into one sharing the benefits of both tags, so it is basically a inline element to which we can apply also height and width.
 
 3. What are the 4 areas of the box model?
+- The box model is composed of 4 major areas which are the content area(inner most layer) where the content gets displayed, padding which are the space between the content and the next area which is the border that surrounds the content, and lastly the margins (outer most layer) which represents the space outside the box.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+- The "align-items: <value>;" property works on the cross axis(default column) that by default goes from the top to the bottom of the parent container on which flex is used, the main axis instead is represented by the "justify-content: <value>;" property, those axis can be interchanges using the "flex-direction: <value>;" property which by default is set to row(main-axis) going across the parent container from the left hand side to the right hand side, and which can be changed to "row-reverse" going in the opposite direction right to left, or to "column" going top to bottom, or "column-reverse" which instead goes from the bottom to the top.
 
 5. Explain why git is valuable to a team of developers.
+- Git is used for version control and is very valuable to a team of developers because makes it easy to collaborate on a number of feature all at the same time by using separated branches which are all connected to a master/main branch but that are not effecting it while working on those separated branches, in this way developers can contribute and work separately on individual features without disrupting or compromising the workflow and making it very easy to then merge/implement those new feauters to the main master project on a later stage.
+Also it makes it very easy to jump/revert to an older version of the file/document, using previous commits in case of any fatal changes to the workflow, without losing the entire work previously made. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
